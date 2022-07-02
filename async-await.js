@@ -1,4 +1,5 @@
-//Async and awaitfunction that returns a promise.
+//Async and await function that returns a promise.
+//Vim text editor. i: insert, esc:w write, ecs:q! discard all changes and quit
 
     const doSomethingAsync = () => {
         return new Promise(resolve => {
