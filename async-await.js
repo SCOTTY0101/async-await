@@ -7,7 +7,7 @@
 
     const doSomethingAsync = () => {
         return new Promise(resolve => {
-            setTimeout(() => resolve( alert('I waited 5 seconds before responding....') ), 5000);
+            setTimeout(() => resolve( alert('I waited 2 seconds before responding....') ), 2000);
         });
     };
 
@@ -17,7 +17,7 @@
 
 /*
 *Calls the function doSomething, which calls doSomethingAsync.
-*Timeout is set to 5 seconds before the alert box is triggered.
+*Timeout is set to 2 seconds before the alert box is triggered.
 */ 
    console.log(doSomething());
 
